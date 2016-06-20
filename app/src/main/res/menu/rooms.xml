@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:chat="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_logout"
+        android:title="@string/deconnexion"
+        chat:showAsAction="never" />
+    <item android:id="@+id/action_add"
+        android:title="New Chat"
+        android:icon="@drawable/ic_action_new"
+        chat:showAsAction="ifRoom" />
+</menu>
